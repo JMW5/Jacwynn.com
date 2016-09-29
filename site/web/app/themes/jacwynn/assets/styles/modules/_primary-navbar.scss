@@ -1,0 +1,22 @@
+.primary-navbar {
+	&--pull-right {
+		float: right;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		list-style: none;
+		float: left;
+		padding: 35px 0px 35px 60px;
+		font-size: 18px;
+		font-weight: 100;
+	}
+
+	a {
+		color: white;
+	}
+}

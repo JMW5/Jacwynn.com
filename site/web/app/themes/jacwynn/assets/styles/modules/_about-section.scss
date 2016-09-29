@@ -1,0 +1,38 @@
+.about-section {
+	margin-top: -10px;
+	background-image: url('../images/about-section.png');
+	background-repeat: round;
+	&__profile-pic {
+		margin-top: 50px;
+		padding-right: 20px;
+	}
+
+	&__btn {
+		width: 205px;
+	}
+
+	&__btns {
+		display: inline;
+		position: absolute;
+		margin-top: 130px;
+	}
+
+	&__link {
+		padding-right: 30px;
+	}
+
+	&__text {
+		margin-top: 90px;
+		font-size: 20px;
+		line-height: 1.8;
+		width: 680px;
+	}
+
+	&__social-icons {
+		margin-top: 250px;
+	}
+
+	&__social-icon {
+		padding-right: 125px;
+	}
+}
