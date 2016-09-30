@@ -19,6 +19,4 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: false
-    wp_home: http://staging.jacwynn.com
-    wp_siteurl: http://staging.jacwynn.com/wp  
-    initial_permalink_structure: /%postname%/
+    
