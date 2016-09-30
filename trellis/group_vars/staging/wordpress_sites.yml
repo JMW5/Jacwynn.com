@@ -5,7 +5,7 @@
 wordpress_sites:
   jacwynn.com:
     site_hosts:
-      - canonical: jacwynn.staging.com
+      - canonical: staging.jacwynn.com
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
@@ -19,4 +19,6 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: false
+    wp_home: http://staging.jacwynn.com
+    wp_siteurl: http://staging.jacwynn.com/wp  
     initial_permalink_structure: /%postname%/
