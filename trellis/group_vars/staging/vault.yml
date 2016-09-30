@@ -10,9 +10,9 @@ vault_users:
 # Variables to accompany `group_vars/staging/wordpress_sites.yml`
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
-  example.com:
+  jacwynn.com:
     env:
-      db_password: example_dbpassword
+      db_password: jacwynn_dbpassword
       # Generate your keys here: https://roots.io/salts.html
       auth_key: "R`NA<7in05S,u0>t}KMw!e,[}lQ%&Eg#DQf,1RhP3>aFuT{O`VZ(vZ^ox:X=%tkB"
       secure_auth_key: "2_lSAjhGm|_X^d%t>Q$Wh`<k!m>W;QH7*?m2smO<?|IGpdTr|he*zn3k3*p<U9a+"

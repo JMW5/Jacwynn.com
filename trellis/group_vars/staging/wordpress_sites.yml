@@ -5,6 +5,7 @@
 wordpress_sites:
   jacwynn.com:
     site_hosts:
+      - 104.236.107.0
       - canonical: jacwynn.staging.com
         # redirects:
         #   - otherdomain.com
