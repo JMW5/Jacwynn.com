@@ -5,7 +5,7 @@
 wordpress_sites:
   jacwynn.staging.com:
     site_hosts:
-      - canonical: jacwynn.staging.com
+      - jacwynn.staging.com
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
