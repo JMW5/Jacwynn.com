@@ -3,10 +3,9 @@
 # Define accompanying passwords/secrets in group_vars/staging/vault.yml
 
 wordpress_sites:
-  jacwynn.staging.com:
+  staging.jacwynn.com:
     site_hosts:
-      - canonical: 45.55.75.191
-      - canonical: jacwynn.staging.com
+      - canonical: staging.jacwynn.com
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
